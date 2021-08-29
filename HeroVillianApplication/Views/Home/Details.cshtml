@@ -1,0 +1,64 @@
+﻿@model HeroVillianApplication.Models.DetailPerson
+
+
+@{
+    ViewBag.Title = "About";
+}
+
+<div class="container">
+    <div class="row" style="margin-top:120px">
+        <div class="col l8 offset-l2">
+
+
+            <div class="card">
+                <div class="card-image">
+                    <img src=@Model.Result.image.url>
+                    <span class="card-title"><strong>@Model.Result.name</strong> </span>
+                </div>
+                <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width">
+                        <li class="tab"><a class="active" href="#test1"><i class="material-icons">book</i> Biography</a></li>
+                        <li class="tab"><a href="#test2"><i class="material-icons">camera_alt</i> Appearance</a></li>
+                        <li class="tab"><a href="#test3"><i class="material-icons">business</i> Work</a></li>
+                        <li class="tab"><a href="#test4"><i class="material-icons">local_movies</i> Connections</a></li>
+                    </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                    <div id="test1">
+                        <p><strong>FullName:       </strong>@Model.Result.biography.fullname</p>
+                        <p><strong>Alter-egos:     </strong>@Model.Result.biography.alteregos</p>                        
+                        <p><strong>Place of birth: </strong>@Model.Result.biography.placeofbirth</p>
+                        <p><strong>Publisher:      </strong>@Model.Result.biography.publisher</p>
+                        <p><strong>Alignment:      </strong>@Model.Result.biography.alignment</p>
+                    </div>
+                    <div id="test2">
+                        <p><strong>Gender:</strong>@Model.Result.appearance.gender</p>
+                        <p><strong>Race:</strong>@Model.Result.appearance.race</p>
+                        <p><strong>Height:</strong>@Model.Result.appearance.height[0] / @Model.Result.appearance.height[1]</p>
+                        <p><strong>Weight:</strong>@Model.Result.appearance.weight[0] / @Model.Result.appearance.weight[1]</p>
+                        <p><strong>Hair-color:</strong>@Model.Result.appearance.haircolor</p>
+                    </div>
+                    <div id="test3">
+                        <p><strong>Occupation:</strong>@Model.Result.work.occupation</p>
+                        <p><strong>Base:</strong>@Model.Result.work.basee</p>
+                    </div>
+                    <div id="test4">
+                        <p><strong>Group-affiliation:</strong>@Model.Result.connections.groupaffiliation</p>
+                        <p><strong>Relatives:</strong>@Model.Result.connections.relatives</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+    // jQuery code
+    $(document).ready(function () {
+        $('.tabs').tabs();
+        $('#navbarNica').removeClass('transparent');
+        $('#navbarNica').addClass('black');
+    });
+</script>

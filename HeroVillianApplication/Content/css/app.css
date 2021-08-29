@@ -1,0 +1,99 @@
+.home{
+    padding: 0px !important;
+}
+
+    .home .upper-fold {
+        height: 100vh !important;
+        background-image: url('https://wallpaperaccess.com/full/54671.jpg');
+        background-size: cover;
+    }
+
+.lower-fold{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.home-search-box.col.m4 {
+    background: #ffffff !important;
+    border-radius: 4px !important;
+    padding: 32px !important;
+    padding-bottom: 24px !important;
+    width: 441px !important;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12) !important;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.home-search-box h1 {
+    font-size: 30px !important;
+    line-height: 36px !important;
+    letter-spacing: normal !important;
+    color: #484848 !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+    padding: 0px !important;
+    font-weight: bold;
+}
+
+.home-search-box .submit-btn {
+    text-align: right
+}
+
+#submit-btn input {
+    color: white;
+}
+
+.search-box-form .input-field {
+    margin-top: 0px;
+}
+
+.search-box-form input {
+    width: 100%;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.search-box-form .form-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav nav {
+    box-shadow: none;
+}
+
+.nav ul li {
+    color: white;
+    cursor: pointer;
+}
+
+.nav ul li.login-signup {
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.nav .nav-non-link {
+    padding: 0 15px;
+}
+
+.nav-non-link:hover {
+    border-bottom: 2px solid white;
+    background-color: initial;
+}
+
+.nav ul li:hover {
+    border-bottom: 2px solid white;
+    background-color: initial;
+}
+
