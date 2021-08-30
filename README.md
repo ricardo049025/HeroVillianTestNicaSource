@@ -13,4 +13,4 @@ used for building the application. Follow the next steps for run the program
 After follow the preview steps run the application y test the project, even you can access to the web application
 in azure services from the next url: https://herovillianwebapp.azurewebsites.net/
 
-You can access to the next link for see the steps: https://share.vidyard.com/watch/zRUBLd9DLpMA7mpT76UVWt?
+You can access to the next link for see the steps: https://share.vidyard.com/watch/imPa9mwke6UUofR7xujM45?
