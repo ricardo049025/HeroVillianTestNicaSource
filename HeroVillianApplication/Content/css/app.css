@@ -1,14 +1,14 @@
-.home{
+.home {
     padding: 0px !important;
 }
 
-    .home .upper-fold {
-        height: 100vh !important;
-        background-image: url('https://wallpaperaccess.com/full/54671.jpg');
-        background-size: cover;
-    }
+.home .upper-fold {
+    height: 100vh !important;
+    background-image: url('https://wallpaperaccess.com/full/54671.jpg');
+    background-size: cover;
+}
 
-.lower-fold{
+.lower-fold {
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -77,11 +77,11 @@
     cursor: pointer;
 }
 
-.nav ul li.login-signup {
-    color: white;
-    cursor: pointer;
-    margin-right: 10px;
-}
+    .nav ul li.login-signup {
+        color: white;
+        cursor: pointer;
+        margin-right: 10px;
+    }
 
 .nav .nav-non-link {
     padding: 0 15px;
@@ -97,3 +97,8 @@
     background-color: initial;
 }
 
+#notfoundWallpaper {
+    height: 100vh !important;
+    background-image: url('https://images.alphacoders.com/108/1089857.jpg');
+    background-size: cover;
+}

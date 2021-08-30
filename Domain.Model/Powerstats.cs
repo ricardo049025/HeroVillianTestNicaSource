@@ -10,16 +10,16 @@ namespace Domain.Model
     public class Powerstats
     {
         [JsonProperty("intelligence")]
-        public int intelligence { set; get; }
+        public string intelligence { set; get; }
         [JsonProperty("strength")]
-        public int strength { set; get; }
+        public string strength { set; get; }
         [JsonProperty("speed")]
-        public int speed { set; get; }
+        public string speed { set; get; }
         [JsonProperty("durability")]
-        public int durability { set; get; }
+        public string durability { set; get; }
         [JsonProperty("power")]
-        public int power { set; get; }
+        public string power { set; get; }
         [JsonProperty("combat")]
-        public int combat { set; get; }
+        public string combat { set; get; }
     }
 }
