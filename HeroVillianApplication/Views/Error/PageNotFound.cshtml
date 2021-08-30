@@ -3,15 +3,16 @@
     ViewBag.Title = "PageNotFound";
 }
 
-<div>
-    <div class="row" style="margin-top:120px">
-        <h1>Not Found</h1>
-        <p class="zoom-area"><b>CSS</b> </p>
-        <section class="error-container">
-            <span class="four"><span class="screen-reader-text">4</span></span>
-            <span class="zero"><span class="screen-reader-text">0</span></span>
-            <span class="four"><span class="screen-reader-text">4</span></span>
-        </section>
+<div id="notfoundWallpaper">
+    <div class="row">
+        <div class="white-text">
+            <div class="col s12 l4 offset-l2" style="margin-top: 150px;">
+                <div>
+                    <h1>404 NOT FOUND!!</h1>
+                    <button class="btn black white-text">@Html.ActionLink("Go to Search", "Index", "Home") </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
